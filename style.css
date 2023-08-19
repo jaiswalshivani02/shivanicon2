@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main{
+    background-color: rgb(17, 17, 17);
+}
+
+nav{
+    /* background: linear-gradient(90deg, #0e0a0afa, #f5f3f3); */
+    background: linear-gradient(to right, #05ee11, #110625 50%);
+    position: sticky;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 40px;
+}
+.brand a{
+    text-decoration: none;
+    color: rgb(237, 248, 234);
+    
+}
+.navmenu{
+    height: 70px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+nav .navmenu a{
+    text-decoration: none;
+
+    color: white;
+    
+    padding: 10px 10px;
+    /* width: 120px; */
+    
+    text-align: center;
+    font-size: 18px;
+}
+nav a:hover{
+    font-weight: bold;
+     width: 7rem; 
+     background: linear-gradient(to right, #070707, #fac208 50%);
+    color: #fff;
+    
+    
+     
+    
+}
+
+section h2{
+    font-size: 2rem;
+    width: fit-content;
+    margin-bottom: 25px;
+    /* align-self: center; */
+}
+h4{
+    color: blue;
+    width: fit-content;
+    margin-bottom: 10px;
+    border-bottom: 3px solid blue;
+}
+
+section{
+    width: 60%;
+    margin: auto;
+    margin-top: 20px;
+    background-color: white;
+    box-shadow: -2px 2px 4px gray;
+}
+
+
+.books-container{
+    padding: 80px 5% 90px;
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    overflow-x: hidden;
+}
+
+table{
+    border-collapse: collapse;
+}
+.inner{
+    width: 100%;
+}
+table, table tr td, table th{
+    border: 2px solid black;
+}
+th, td{
+    padding: 15px 1%;
+    min-width: 65px;
+    text-align: center;
+}
+.inner tr td{
+    text-align: left;
+}
+.root th{
+    /* background-color:rgb(191, 245, 238); */
+    background: linear-gradient(to right, #f7de05, #ff5202 50%);
+    background: linear-gradient(to right, #070704, #ee3101 50%);
+    color: rgb(238, 242, 245); /* Set text color to white for better contrast */
+    padding: 8px;
+    text-align: left;
+}
+
+.form-container{
+    padding: 80px 5% 90px;
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.input-group{
+    display: flex;
+    flex-direction: column;
+}
+.input-group{
+    margin-bottom: 10px;
+}
+.input-group label{
+    margin-bottom: 2px;
+    font-weight: bold;
+    padding-left: 5px;
+}
+.input-group input{
+    padding: 7px 8px;
+    border-radius: 6px;
+}
+.input-group button{
+    margin-top: 10px;
+    padding: 7px 6px;
+    border-radius: 6px;
+    font-weight: bold;
+    background-color: rgb(69, 6, 240);
+    color: white;
+    border: 0px;
+    box-shadow: -0.5px 0.5px 0.5px rgb(97, 97, 250);
+}
+.input-group button:hover{
+    cursor: pointer;
+    background-color: rgb(11, 221, 46);
+}
